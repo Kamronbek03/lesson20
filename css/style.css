@@ -1,0 +1,343 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif, "PT Sans";
+}
+a {
+  text-decoration: none;
+}
+header {
+  width: 1920px;
+  margin: 0 auto;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #000;
+  padding: 0 405px;
+  padding-top: 14px;
+}
+.qism-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.qism-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.head pre {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--gray, #969696);
+  font-family: "PT Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+.head pre a {
+  color: var(--gray, #969696);
+  text-align: right;
+  font-family: "PT Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #0f0f0f;
+  padding: 0 405px;
+}
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.link {
+  color: var(--gray, #969696);
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 31px 0;
+}
+.link-1 {
+  color: #fff;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 31px 20px;
+  background: #1f1f1f;
+}
+.nav-img {
+  padding: 29px 0;
+}
+.menu-end {
+  display: flex;
+}
+.background {
+  background-image: url(../images/img-1.png);
+  background-repeat: no-repeat;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  margin: 160px 800px 80px;
+  padding: 93px 71px 94px 69px;
+  border: 4px solid #fff;
+}
+.text-1 p {
+  color: #fff;
+  text-align: center;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin: 0 595px 154px;
+}
+.bolim-1 {
+  display: flex;
+}
+.bolim-1 .qism-1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 730px;
+  background: #000;
+}
+.texts .p-1 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 93px 306.46px 50px;
+}
+.texts .p-2 {
+  width: 110.769px;
+  height: 1px;
+  background: #fff;
+  margin: 0 424.62px 50px;
+}
+.soat {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 73.85px;
+  gap: 46.15px;
+  margin-top: -80px;
+}
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.soat img {
+  background: #191b1c;
+  padding: 55px 20.31px 56px 21.23px;
+}
+.soat .pi-1 {
+  color: var(--white, #fff);
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+  width: 129.231px;
+}
+.soat .pi-2 {
+  color: var(--light-gray, #d0d0d0);
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 700;
+  width: 84.923px;
+  margin-top: -15px;
+}
+.bolim-1 .qism-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bolim-1 .qism-2 .background {
+  background-image: url(../images/img-2.png);
+  background-repeat: no-repeat;
+  height: 730px;
+}
+.p--1 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 484px 274.91px 30px;
+}
+.p--2 {
+  width: 130.909px;
+  height: 1px;
+  background: #fff;
+  margin: 0 413.45px 30px;
+}
+.p--3 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border: 1px solid var(--white, #fff);
+  margin: 0 417.27px 100px 404.73px;
+}
+.bolim-2 {
+  display: flex;
+  align-items: flex-start;
+}
+.bolim-2 .text {
+  background-color: #000;
+}
+.bolim-2 .text .p1 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 100px 332px 40px 252px;
+}
+.bolim-2 .text .p2 {
+  width: 120px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 460px 40px 380px;
+}
+.bolim-2 .text .p3 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0 284px 61px 205px;
+}
+.bolim-2 .text .p4 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border: 1px solid var(--white, #fff);
+  margin: 0 360px 100px 280px;
+}
+.bolim-3 {
+  background-color: #000;
+  width: 1920px;
+  margin-top: -10px;
+  padding-top: 120px;
+}
+.pp {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 740px 40px;
+}
+.pp1 {
+  width: 120px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 900px 81px;
+}
+.soats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  padding: 0 406px 150px 405px;
+}
+.soot {
+  display: flex;
+  flex-direction: column;
+}
+.soot img {
+  padding: 55px 22px 56px 23px;
+  background: #191b1c;
+}
+.ppp {
+  color: var(--white, #fff);
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+.ppp1 {
+  color: var(--light-gray, #d0d0d0);
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+footer {
+  background-color: #0f0f0f;
+  width: 1920px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+footer .p1 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 815px 40px 816px;
+}
+footer .p2 {
+  width: 120px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 900px 40px;
+}
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 405px;
+}
+@media (max-width: 1440px) {
+  /* // lg */
+}
+
+@media (max-width: 976px) {
+  /* // md */
+}
+
+@media (max-width: 768px) {
+  /* // sm */
+}
+
+@media (max-width: 480px) {
+  /* // xs */
+}
